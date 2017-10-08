@@ -19,6 +19,7 @@ import { OrderSearchComponent } from './back-end/order/order-search/order-search
 import { OrderDetailComponent } from './back-end/order/order-detail/order-detail.component';
 import { ReportComponent } from './back-end/report/report.component';
 import { SalesComponent } from './back-end/report/sales/sales.component';
+import { AutocompleteDirective } from './directive/autocomplete/autocomplete.directive';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { SalesComponent } from './back-end/report/sales/sales.component';
     OrderSearchComponent,
     OrderDetailComponent,
     ReportComponent,
-    SalesComponent
+    SalesComponent,
+    AutocompleteDirective
   ],
   imports: [
     BrowserModule
